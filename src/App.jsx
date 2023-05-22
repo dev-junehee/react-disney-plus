@@ -1,10 +1,15 @@
 import Nav from './components/Nav';
+import Banner from './components/Banner'
+import Category from './components/Category';
 import styled from 'styled-components'
+import './App.scss'
 
 export default function App() {
   return (
     <Container>
       <Nav />
+      <Banner />
+      <Category />
     </Container>
   );
 }
